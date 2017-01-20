@@ -4,6 +4,8 @@ const configAPI = (__ENVS__) => {
   AuthAPI.init(__ENVS__);
   const ParseServerAPI = require('modules/parse-server/api').default;
   ParseServerAPI.init(__ENVS__);
+  const DataAPI = require('modules/data/api').default;
+  DataAPI.init(__ENVS__);
 };
 
 export default configAPI;

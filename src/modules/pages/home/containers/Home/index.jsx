@@ -5,6 +5,8 @@ import compose from 'recompose/compose';
 
 import Button from 'modules/ui/components/Button';
 
+import { withData } from './decorators';
+
 const Home = () => (
   <Grid>
     <Jumbotron>
@@ -28,4 +30,6 @@ const Home = () => (
   </Grid>
 );
 
-export default compose()(Home);
+export default compose(
+  withData(),
+)(Home);

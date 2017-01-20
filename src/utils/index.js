@@ -7,4 +7,5 @@ export const envSelector = R.pick([
   'PARSE_SERVER_APPLICATION_ID',
   'PARSE_SERVER_JAVASCRIPT_KEY',
   'PARSE_SERVER_API_BASE_URL',
+  'DATA_API_BASE_URL',
 ]);
