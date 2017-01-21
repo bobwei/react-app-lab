@@ -6,6 +6,12 @@ const mapStateToProps = state => ({
     R.map(row => ({
       ...R.pick(['id', 'title'])(row),
       photo: get('apps[0].thumbnails.medium.url')(row),
+      link: R.compose(
+        R.join(''),
+        R.prepend('http://www.viveport.com/apps/'),
+        R.of,
+        get('apps[0].id'),
+      )(row),
     })),
     ({ list, detail }) => R.map(R.prop(R.__, detail))(list),
     R.pick(['list', 'detail']),
