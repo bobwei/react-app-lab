@@ -11,7 +11,7 @@ export const initialState = {
 export default handleActions({
   [put]: (state, action) => ({
     ...state,
-    list: R.map(R.prop('id'))(action.payload),
+    list: R.compose(R.uniq, R.map(R.prop('id')))(action.payload),
     detail: R.indexBy(R.prop('id'))(action.payload),
   }),
 }, { ...initialState });

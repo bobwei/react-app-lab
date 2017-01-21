@@ -1,5 +1,6 @@
 import { createAction } from 'redux-actions';
 import R from 'ramda';
+import async from 'async';
 
 import DataAPI from '../api';
 
@@ -17,4 +18,33 @@ export const fetchData = params => dispatch => (
       put,
       R.path(['data', 'contents']),
     ))
+);
+
+export const fetchDataAll = params => dispatch => (
+  new Promise((resolve) => {
+    const results = [];
+    async.until(
+      () => R.compose(R.isEmpty, R.last)(results),
+      (callback) => {
+        DataAPI
+          .request()
+          .get('/api/cms/v3/products', {
+            params: {
+              ...params,
+              from: R.compose(R.length, R.flatten)(results),
+            },
+          })
+          .then((res) => {
+            results.push(R.path(['data', 'contents'])(res));
+            R.compose(resolve, dispatch, put, R.flatten)(results);
+          })
+          .then(() => {
+            callback(null);
+          });
+      },
+      () => {
+        R.compose(resolve, dispatch, put, R.flatten)(results);
+      },
+    );
+  })
 );

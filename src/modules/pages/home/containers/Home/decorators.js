@@ -4,8 +4,8 @@ import lifecycle from 'recompose/lifecycle';
 export const withData = () => compose(
   lifecycle({
     componentDidMount() {
-      const { fetchData } = this.props;
-      fetchData({ size: 100 });
+      const { fetchDataAll } = this.props;
+      fetchDataAll({ size: 12 });
     },
   }),
 );

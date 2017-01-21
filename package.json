@@ -68,6 +68,7 @@
     "webpack-node-externals": "^1.5.4"
   },
   "dependencies": {
+    "async": "^2.1.4",
     "axios": "^0.15.3",
     "babel-core": "^6.18.2",
     "bootstrap-sass": "^3.3.6",
