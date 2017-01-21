@@ -1,0 +1,288 @@
+{
+  "data": {
+    "list": [
+      "VR-b3179e6c-c6a9-4865-abb4-3097a55c3564"
+    ],
+    "detail": {
+      "VR-b3179e6c-c6a9-4865-abb4-3097a55c3564": {
+        "id": "VR-b3179e6c-c6a9-4865-abb4-3097a55c3564",
+        "title": "Trump In VR: \"Wide Awake\"",
+        "desc": "To mark the Inauguration of the 45th President of the United States MacInnes Scott invite you to step into the Oval Office and meet President Trump. This historic site has been recreated down to the smallest detail and President Trump is the most photo-realist human you will see in virtual reality today. Explore what it feels like to be in the space where America's destiny has been shaped for the last 78 years and come face to face with the man who will determine America's fate for the next four.\n\n“VR is a new medium with the potential of being a movie or video game, a combination of both or something completely new,” says John MacInnes. “We see Trump In VR as art - a tableau vivant, in the American tradition of artists like Edward Hooper in painting, Gregory Crewdson and Cindy Sherman in photography. Unlike a painting and photography, you can interact with the art in virtual reality.”\n\nMacInnes Scott's proprietary digital human 'maximum resolution' replication system utilizes HTC Vive's room scale and Epic's Unreal engine to  render the character and environment in real-time 3D. ",
+        "offer_id": "32bc192104175d7ac83acc82fffee6663b72c06f904478b3cc8f48aee6011ff5",
+        "policy_id": "646d61c1-6692-458d-ae06-5d80c2c5ee14",
+        "status": 1,
+        "release_time": 1484685141279,
+        "countries": [
+          "au",
+          "at",
+          "be",
+          "ca",
+          "cn",
+          "cz",
+          "dk",
+          "fi",
+          "fr",
+          "de",
+          "hk",
+          "is",
+          "in",
+          "ie",
+          "it",
+          "jp",
+          "kr",
+          "mo",
+          "nl",
+          "nz",
+          "no",
+          "pl",
+          "ru",
+          "sa",
+          "sg",
+          "es",
+          "se",
+          "ch",
+          "tw",
+          "ae",
+          "gb",
+          "us"
+        ],
+        "app_ids": [
+          "c6947061-124e-4315-ab0b-6208c1bb77f9"
+        ],
+        "plan_plan_id": "",
+        "plan_title": "",
+        "plan_photo_url": "",
+        "plan_type": "",
+        "title_language": "en_us",
+        "apps": [
+          {
+            "id": "c6947061-124e-4315-ab0b-6208c1bb77f9",
+            "ver_code": 1484793570,
+            "ver_name": "1.1",
+            "title": "Trump In VR: \"Wide Awake\"",
+            "desc": "To mark the Inauguration of the 45th President of the United States MacInnes Scott invite you to step into the Oval Office and meet President Trump. This historic site has been recreated down to the smallest detail and President Trump is the most photo-realist human you will see in virtual reality today. Explore what it feels like to be in the space where America's destiny has been shaped for the last 78 years and come face to face with the man who will determine America's fate for the next four.\n\n“VR is a new medium with the potential of being a movie or video game, a combination of both or something completely new,” says John MacInnes. “We see Trump In VR as art - a tableau vivant, in the American tradition of artists like Edward Hooper in painting, Gregory Crewdson and Cindy Sherman in photography. Unlike a painting and photography, you can interact with the art in virtual reality.”\n\nMacInnes Scott's proprietary digital human 'maximum resolution' replication system utilizes HTC Vive's room scale and Epic's Unreal engine to  render the character and environment in real-time 3D. ",
+            "author": {
+              "id": "d4401d80-1cc6-4f5a-b3fb-14c017788382",
+              "name": "MacInnes Scott",
+              "icon": "https://assets-cn.htcvive.com/vr_developer_published_assets/author/d4401d80-1cc6-4f5a-b3fb-14c017788382/publish/icon.jpg",
+              "desc": "macinnesscott.com",
+              "contact": ""
+            },
+            "categories": "1",
+            "thumbnails": {
+              "small": {
+                "url": "https://assets-cn.htcvive.com/vr_developer_published_assets/app/c6947061-124e-4315-ab0b-6208c1bb77f9/media/publish/thumbnail_small_v1484812218.jpg",
+                "width": 316,
+                "height": 178
+              },
+              "medium": {
+                "url": "https://assets-cn.htcvive.com/vr_developer_published_assets/app/c6947061-124e-4315-ab0b-6208c1bb77f9/media/publish/thumbnail_medium_v1484812218.jpg",
+                "width": 655,
+                "height": 369
+              },
+              "large": {
+                "url": "https://assets-cn.htcvive.com/vr_developer_published_assets/app/c6947061-124e-4315-ab0b-6208c1bb77f9/media/publish/thumbnail_large_v1484812218.jpg",
+                "width": 1432,
+                "height": 550
+              },
+              "square": {
+                "url": "https://assets-cn.htcvive.com/vr_developer_published_assets/app/c6947061-124e-4315-ab0b-6208c1bb77f9/media/publish/thumbnail_square_v1484812218.jpg",
+                "width": 256,
+                "height": 256
+              }
+            },
+            "gallery": [
+              {
+                "media_type": 0,
+                "url": "https://assets-cn.htcvive.com/vr_developer_published_assets/app/c6947061-124e-4315-ab0b-6208c1bb77f9/media/publish/image_1_v1484901567.jpg",
+                "width": 1366,
+                "height": 768,
+                "thumbnail": {
+                  "url": "https://assets-cn.htcvive.com/vr_developer_published_assets/app/c6947061-124e-4315-ab0b-6208c1bb77f9/media/publish/image_thumbnail_1_v1484901567.jpg",
+                  "width": 316,
+                  "height": 178
+                }
+              },
+              {
+                "media_type": 0,
+                "url": "https://assets-cn.htcvive.com/vr_developer_published_assets/app/c6947061-124e-4315-ab0b-6208c1bb77f9/media/publish/image_2_v1484812218.jpg",
+                "width": 1366,
+                "height": 768,
+                "thumbnail": {
+                  "url": "https://assets-cn.htcvive.com/vr_developer_published_assets/app/c6947061-124e-4315-ab0b-6208c1bb77f9/media/publish/image_thumbnail_2_v1484812218.jpg",
+                  "width": 316,
+                  "height": 178
+                }
+              },
+              {
+                "media_type": 0,
+                "url": "https://assets-cn.htcvive.com/vr_developer_published_assets/app/c6947061-124e-4315-ab0b-6208c1bb77f9/media/publish/image_3_v1484812218.jpg",
+                "width": 1366,
+                "height": 768,
+                "thumbnail": {
+                  "url": "https://assets-cn.htcvive.com/vr_developer_published_assets/app/c6947061-124e-4315-ab0b-6208c1bb77f9/media/publish/image_thumbnail_3_v1484812218.jpg",
+                  "width": 316,
+                  "height": 178
+                }
+              },
+              {
+                "media_type": 0,
+                "url": "https://assets-cn.htcvive.com/vr_developer_published_assets/app/c6947061-124e-4315-ab0b-6208c1bb77f9/media/publish/image_4_v1484812218.jpg",
+                "width": 1366,
+                "height": 768,
+                "thumbnail": {
+                  "url": "https://assets-cn.htcvive.com/vr_developer_published_assets/app/c6947061-124e-4315-ab0b-6208c1bb77f9/media/publish/image_thumbnail_4_v1484812218.jpg",
+                  "width": 316,
+                  "height": 178
+                }
+              },
+              {
+                "media_type": 0,
+                "url": "https://assets-cn.htcvive.com/vr_developer_published_assets/app/c6947061-124e-4315-ab0b-6208c1bb77f9/media/publish/image_5_v1484901567.jpg",
+                "width": 1366,
+                "height": 768,
+                "thumbnail": {
+                  "url": "https://assets-cn.htcvive.com/vr_developer_published_assets/app/c6947061-124e-4315-ab0b-6208c1bb77f9/media/publish/image_thumbnail_5_v1484901567.jpg",
+                  "width": 316,
+                  "height": 178
+                }
+              }
+            ],
+            "genres": [
+              "11",
+              "18",
+              "1"
+            ],
+            "sys_reqs": {
+              "os": [
+                "Win8",
+                "Win10"
+              ],
+              "osbits": [
+                "64"
+              ],
+              "others": {
+                "processor": "i7",
+                "memory_size": "8",
+                "memory_unit": "GB",
+                "directx_version": "11",
+                "disk_space": "3",
+                "disk_space_unit": "GB",
+                "graphics": "GTX 980 or higher",
+                "notes": "Use your controller as a flashlight by pressing the top of the top of the trackpad. Exit by pressing the shoulder button marked 'EXIT'."
+              }
+            },
+            "release_time": 1484685141279,
+            "create_time": 1484685141279,
+            "view_count": 0,
+            "download_count": 0,
+            "content_rating": 0,
+            "single_player": true,
+            "publish_status": 0,
+            "publish_date": 1484956800,
+            "price": 0,
+            "currency": "0",
+            "is_promotion": false,
+            "is_best_of_vr": false,
+            "htc_exclusive": false,
+            "release_note": " Version 1.1",
+            "app_key": "vive.htc.c6947061-124e-4315-ab0b-6208c1bb77f9",
+            "is_free": true,
+            "contact": "steam@macinnesscott.com",
+            "play_area": [
+              "room_scale",
+              "standing",
+              "seated"
+            ],
+            "extra_docs": [
+              {
+                "key": "privacy",
+                "url": ""
+              },
+              {
+                "key": "terms",
+                "url": "",
+                "attributes": [
+                  {
+                    "key": "eula_type",
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "key": "stores",
+                "url": "",
+                "attributes": [
+                  {
+                    "key": "viveport",
+                    "value": "1"
+                  },
+                  {
+                    "key": "arcade",
+                    "value": "100"
+                  }
+                ]
+              },
+              {
+                "key": "viveport_awards",
+                "url": "",
+                "attributes": [
+                  {
+                    "key": "terms",
+                    "value": "0"
+                  }
+                ]
+              },
+              {
+                "key": "china_law",
+                "url": "",
+                "content_l10n": "content have no CHS",
+                "attributes": [
+                  {
+                    "key": "checked",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "key": "advertisement",
+                "url": "",
+                "attributes": [
+                  {
+                    "key": "sdk",
+                    "value": "0"
+                  }
+                ]
+              },
+              {
+                "key": "wrapper_binary",
+                "url": "",
+                "attributes": [
+                  {
+                    "key": "published",
+                    "value": "0"
+                  }
+                ]
+              }
+            ],
+            "product_ids": [
+              "VR-b3179e6c-c6a9-4865-abb4-3097a55c3564"
+            ],
+            "app_type": 0,
+            "concurrent_session": -1,
+            "new_category": [
+              "1100",
+              "1300",
+              "1500"
+            ],
+            "cloud": {
+              "objs": []
+            }
+          }
+        ],
+        "type": 0,
+        "p_publish_date": 1484956800
+      }
+    }
+  }
+}

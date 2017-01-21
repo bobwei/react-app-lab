@@ -1,0 +1,20 @@
+.item {
+  margin-bottom: 10px;
+}
+
+.photo {
+  height: 150px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #eee;
+  background-position: 50%;
+}
+
+.title {
+  height: 50px;
+  padding: 5px 0;
+  font-weight: 200;
+  color: #484848;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+}

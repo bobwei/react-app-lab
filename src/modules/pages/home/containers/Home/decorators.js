@@ -5,7 +5,7 @@ export const withData = () => compose(
   lifecycle({
     componentDidMount() {
       const { fetchData } = this.props;
-      fetchData();
+      fetchData({ size: 25 });
     },
   }),
 );

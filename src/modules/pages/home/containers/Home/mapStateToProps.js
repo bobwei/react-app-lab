@@ -1,8 +1,12 @@
 import R from 'ramda';
+import { get } from 'lodash/fp';
 
 const mapStateToProps = state => ({
   data: R.compose(
-    R.map(R.pick(['id', 'title'])),
+    R.map(row => ({
+      ...R.pick(['id', 'title'])(row),
+      photo: get('apps[0].thumbnails.large.url')(row),
+    })),
     ({ list, detail }) => R.map(R.prop(R.__, detail))(list),
     R.pick(['list', 'detail']),
     R.path(['data']),
