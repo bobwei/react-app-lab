@@ -1,3 +1,5 @@
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables";
+
 .item {
   margin-bottom: 10px;
 }
@@ -9,6 +11,48 @@
   background-repeat: no-repeat;
   background-color: #eee;
   background-position: 50%;
+}
+
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+
+  .photo {
+    height: 119px;
+  }
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+
+  .photo {
+    height: 405px;
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+
+  .photo {
+    height: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .photo {
+    height: 253px;
+  }
+}
+
+@media (max-width: 414px) {
+
+  .photo {
+    height: 208px;
+  }
+}
+
+@media (max-width: 375px) {
+
+  .photo {
+    height: 195px;
+  }
 }
 
 .title {
