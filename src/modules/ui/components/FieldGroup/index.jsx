@@ -7,9 +7,9 @@ import styles from './index.scss';
 const FieldGroup = ({ input, meta, inputComponent, inputProps, label, horizontal }) => {
   const Input = React.createElement(inputComponent, {
     ...FieldGroup.defaultProps.inputProps,
+    placeholder: label,
     ...input,
     ...inputProps,
-    placeholder: label,
   });
   return (
     <FormGroup validationState={(!!meta.touched && !!meta.error && 'error') || null}>
@@ -28,12 +28,14 @@ const FieldGroup = ({ input, meta, inputComponent, inputProps, label, horizontal
       }
       {!horizontal &&
         <div>
-          <ControlLabel>
-            {label}
-            {(!!meta.touched && !!meta.error) &&
-              <span className={styles.error}>{meta.error}</span>
-            }
-          </ControlLabel>
+          {!!label &&
+            <ControlLabel>
+              {label}
+              {(!!meta.touched && !!meta.error) &&
+                <span className={styles.error}>{meta.error}</span>
+              }
+            </ControlLabel>
+          }
           <div>
             {Input}
           </div>
