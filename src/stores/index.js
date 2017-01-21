@@ -24,7 +24,7 @@ export default (initialState, history) => {
   );
 
   if (canUseDOM) {
-    persistStore(store, { whitelist: ['user', 'admin'] }, () => {
+    persistStore(store, { whitelist: ['user', 'admin', 'data'] }, () => {
       if (process.env.NODE_ENV !== 'production') {
         console.log('state autoRehydrate completed');
       }
