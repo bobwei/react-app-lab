@@ -24,7 +24,7 @@ export const fetchDataAll = params => dispatch => (
   new Promise((resolve) => {
     const results = [];
     async.until(
-      () => R.compose(R.isEmpty, R.last)(results),
+      R.compose(R.isEmpty, R.last, R.always(results)),
       (callback) => {
         DataAPI
           .request()
