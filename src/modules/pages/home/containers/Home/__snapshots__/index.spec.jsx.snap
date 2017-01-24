@@ -1,0 +1,63 @@
+exports[`test can render correctly 1`] = `
+<div
+  className="container">
+  <div
+    className="jumbotron">
+    <h2>
+      Hello, React App Boilerplate
+    </h2>
+    <p>
+      This is a react app boilerplate with batteries included.
+    </p>
+    <p>
+      <a
+        action="push"
+        className="btn btn-default"
+        disabled={false}
+        onClick={[Function]}
+        style={Object {}}
+        type="button">
+        open Admin Portal in modal
+      </a>
+    </p>
+  </div>
+  <div
+    className="row">
+    <div
+      className="col-md-6 col-md-offset-3">
+      <form
+        className=""
+        onSubmit={[Function]}>
+        <div
+          style={
+            Object {
+              "margin": "-30px 0 30px",
+            }
+          }>
+          <div
+            className="form-group">
+            <div>
+              <div>
+                <input
+                  autoFocus={true}
+                  className="form-control"
+                  name="q"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onDragStart={[Function]}
+                  onDrop={[Function]}
+                  onFocus={[Function]}
+                  placeholder="Search By Name"
+                  type="search"
+                  value="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div
+    className="row" />
+</div>
+`;

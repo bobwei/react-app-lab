@@ -6,7 +6,8 @@
       "alias": {
         "components": "./src/components",
         "modules": "./src/modules",
-        "pages": "./src/pages"
+        "pages": "./src/pages",
+        "stores": "./src/stores"
       }
     }],
     "react-hot-loader/babel"
