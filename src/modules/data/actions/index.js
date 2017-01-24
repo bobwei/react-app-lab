@@ -42,9 +42,7 @@ export const fetchDataAll = params => dispatch => (
             callback(null);
           });
       },
-      () => {
-        R.compose(resolve, dispatch, put, R.flatten)(results);
-      },
+      R.compose(resolve, dispatch, put, R.flatten, R.always(results)),
     );
   })
 );
