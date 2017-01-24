@@ -36,7 +36,7 @@ export const fetchDataAll = params => dispatch => (
           })
           .then((res) => {
             results.push(R.path(['data', 'contents'])(res));
-            R.compose(resolve, dispatch, put, R.flatten)(results);
+            R.compose(dispatch, put, R.flatten)(results);
           })
           .then(() => {
             callback(null);
