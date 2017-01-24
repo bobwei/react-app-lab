@@ -1,19 +1,15 @@
 import React from 'react';
-import { bindActionCreators } from 'redux';
-import { connect } from 'react-redux';
 import { Jumbotron, Grid, Row, Col, Form } from 'react-bootstrap';
 import { reduxForm, Field } from 'redux-form';
 import { Link } from 'react-router';
-import R from 'ramda';
 import compose from 'recompose/compose';
 
 import FieldGroup from 'modules/ui/components/FieldGroup';
 import Button from 'modules/ui/components/Button';
-import * as dataActions from 'modules/data/actions';
 
 import Item from '../../components/Item';
-import mapStateToProps from './mapStateToProps';
-import { withData } from './decorators';
+import withData from '../../decorators/withData';
+import withFetch from '../../decorators/withFetch';
 
 const Home = ({ data, handleSubmit }) => (
   <Grid>
@@ -72,8 +68,8 @@ Home.propTypes = {
 };
 
 export default compose(
-  connect(mapStateToProps, R.curry(bindActionCreators)(dataActions)),
   withData(),
+  withFetch(),
   reduxForm({
     form: 'dataQuery',
     onSubmit(data) {

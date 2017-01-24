@@ -1,8 +1,13 @@
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
 import R from 'ramda';
 import { get } from 'lodash/fp';
 import { getFormValues } from 'redux-form';
+import compose from 'recompose/compose';
 
-const mapStateToProps = state => ({
+import * as dataActions from 'modules/data/actions';
+
+export const mapStateToProps = state => ({
   data: R.compose(
     R.filter(R.anyPass([
       R.compose(R.isNil, R.always(getFormValues('dataQuery')(state))),
@@ -27,4 +32,6 @@ const mapStateToProps = state => ({
   )(state),
 });
 
-export default mapStateToProps;
+export default () => compose(
+  connect(mapStateToProps, R.curry(bindActionCreators)(dataActions)),
+);
